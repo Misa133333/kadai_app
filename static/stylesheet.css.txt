@@ -1,0 +1,50 @@
+header {
+    background-color: #76B55B;
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Your Handwriting Font', cursive; /* 手書き風のフォントを指定 */
+    background-color: #f0fff0; /* ライトなミントグリーンの背景 */
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+header h1 {
+    color: #008080; /* ミントグリーン */
+    text-align: center;
+}
+
+.introduction, .features {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>解析結果</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>解析結果</h1>
+    <img src="{{ image_url }}" alt="Uploaded Image" style="max-width: 500px; height: auto;">
+    <p>{{ story }}</p>
+    <a href="/">別の画像をアップロードする</a>
+</body>
+</html>

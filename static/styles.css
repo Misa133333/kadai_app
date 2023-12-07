@@ -1,0 +1,63 @@
+/* 全体の基本スタイル設定 */
+body {
+    font-family: Arial, sans-serif; /* または好みのフォント */
+    background-color: #e0f2f1; /* 薄いミントグリーン */
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー部分 */
+header {
+    background-color: #00695c; /* 濃いミントグリーン */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* メインコンテンツ部分 */
+.main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff; /* 白背景 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* フォームとボタン */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type=file] {
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: #00695c; /* 濃いミントグリーン */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* フッター部分 */
+footer {
+    background-color: #004d40; /* より濃いミントグリーン */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
